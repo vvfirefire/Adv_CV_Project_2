@@ -30,7 +30,7 @@ datasets:
 
     # data loader
     use_shuffle: true
-    num_worker_per_gpu: 6
+    num_worker_per_gpu: 24
     batch_size_per_gpu: 16
     dataset_enlarge_ratio: 100
     prefetch_mode: ~
@@ -49,7 +49,7 @@ network_g:
   num_in_ch: 3
   num_out_ch: 3
   num_feat: 64
-  num_block: 16
+  num_block: 20
   upscale: 4
 
 # path

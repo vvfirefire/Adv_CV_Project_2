@@ -24,7 +24,7 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: net_g_985000.pth
+  pretrain_network_g: basicsr/net_g_985000.pth
   strict_load_g: true
 
 # validation settings
